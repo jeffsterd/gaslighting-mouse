@@ -1,0 +1,3 @@
+# Python bindings for the macOS APIs we use to read and move the real mouse.
+pyobjc-framework-Quartz; sys_platform == "darwin"
+pyobjc-framework-ApplicationServices; sys_platform == "darwin"
